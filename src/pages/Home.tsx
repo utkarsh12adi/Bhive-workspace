@@ -80,7 +80,7 @@ const Home = () => {
       <div className="flex justify-center">
         <div className="hidden md:block relative">
           <img className="opacity-50 w-full" src={BgGradient} alt="bg" />
-          <div className="absolute inset-0 flex items-center justify-center px-24 lg:px:32">
+          <div className="absolute inset-0 flex items-center justify-center px-24 lg:px:28">
             <p className="text-black text-5xl font-bold p-2 rounded">
               Host your meeting with world-class amenities. Starting at{" "}
               <label className="text-amber-400">₹199/-!</label>
@@ -97,7 +97,7 @@ const Home = () => {
         <label className="text-amber-400">₹199/-!</label>
       </p>
 
-      <div className="bg-gray-100 h-full py-6 px-4 md:px-24 lg:px:32">
+      <div className="bg-gray-100 h-full py-6 px-4 md:px-24 lg:px:28">
         <ChooseUs />
         <OverView data={data} />
         <AppOverView />
