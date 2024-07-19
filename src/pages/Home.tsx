@@ -77,10 +77,10 @@ const Home = () => {
 
   return (
     <div className="bg-gray-100">
-      <div className="flex justify-between">
+      <div className="flex justify-between lg:px:28">
         <div className="hidden md:block relative">
           <img className="opacity-50 w-full" src={BgGradient} alt="bg" />
-          <div className="absolute inset-0 flex items-center justify-center px-24 lg:px:28">
+          <div className="absolute inset-0 flex items-center justify-center px-24">
             <p className="text-black text-5xl font-bold p-2 rounded">
               Host your meeting with world-class amenities. Starting at{" "}
               <label className="text-amber-400">₹199/-!</label>
