@@ -48,7 +48,7 @@ const OverviewCard: React.FC<OverviewCardType> = ({
       <div className="py-2">
         {images.map((imageName, index) => (
           <img
-            className="rounded-md w-full h-52"
+            className="rounded-md w-full h-auto"
             key={index}
             src={getImagePath(imageName)}
             alt={name}
